@@ -1,5 +1,5 @@
 [package]
-name = "libsrgl-event"
+name = "srgl-output"
 version = "0.1.0"
 authors = ["g2xpf <nameko.jack@gmail.com>"]
 edition = "2018"

@@ -1,7 +1,7 @@
 [workspace]
 members = [
-  "src/libsrgl-event",
-  "src/libsrgl-reaction",
+  "src/libsrgl-input",
+  "src/libsrgl-output",
   "src/libsrgl",
   "src/gamedev"
 ]

@@ -5,21 +5,23 @@ name = "gamedev"
 version = "0.1.0"
 dependencies = [
  "srgl 0.1.0",
+ "srgl-input 0.1.0",
+ "srgl-output 0.1.0",
 ]
-
-[[package]]
-name = "libsrgl-event"
-version = "0.1.0"
-
-[[package]]
-name = "libsrgl-reaction"
-version = "0.1.0"
 
 [[package]]
 name = "srgl"
 version = "0.1.0"
 dependencies = [
- "libsrgl-event 0.1.0",
- "libsrgl-reaction 0.1.0",
+ "srgl-input 0.1.0",
+ "srgl-output 0.1.0",
 ]
+
+[[package]]
+name = "srgl-input"
+version = "0.1.0"
+
+[[package]]
+name = "srgl-output"
+version = "0.1.0"
 

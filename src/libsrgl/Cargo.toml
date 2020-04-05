@@ -7,8 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-libsrgl-reaction = { version = "*", path = "../libsrgl-reaction", optional = true }
-libsrgl-event = { version = "*", path = "../libsrgl-event", optional = true }
+srgl-input = { version = "*", path = "../libsrgl-input", optional = true }
+srgl-output = { version = "*", path = "../libsrgl-output", optional = true }
 
 [features]
-default-backend = ["libsrgl-reaction", "libsrgl-event"]
+default-backend = ["srgl-input", "srgl-output"]
